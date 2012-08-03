@@ -13,6 +13,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-rails.git'
 Bundle 'wincent/Command-T'
+Bundle 'sjl/gundo.vim'
 
 " vim-scripts repos
 Bundle 'L9'
