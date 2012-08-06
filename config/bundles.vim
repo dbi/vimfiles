@@ -14,6 +14,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-rails.git'
 Bundle 'wincent/Command-T'
 Bundle 'sjl/gundo.vim'
+Bundle 'vim-ruby/vim-ruby'
 
 " vim-scripts repos
 Bundle 'L9'
