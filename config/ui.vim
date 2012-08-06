@@ -19,3 +19,6 @@ set list
 
 colorscheme molokai
 " colorscheme billskog_theme
+
+" No bell sound
+set vb
