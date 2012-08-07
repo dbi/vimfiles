@@ -22,3 +22,6 @@ colorscheme molokai
 
 " No bell sound
 set vb
+
+" Always display status bar
+set laststatus=2
