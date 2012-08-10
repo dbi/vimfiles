@@ -75,7 +75,7 @@ hi PmenuThumb     guifg=#8F9D6A
 
 "Tab styling
 hi TabLineFill    guifg=#000000    guibg=#000000
-hi TabLineSel     guifg=#808080    guibg=#202020
+hi TabLineSel     guifg=#A0A0A0    guibg=#202020
 hi TabLine        guifg=#505050    guibg=#000000    gui=NONE
 
 "Hihlight the window you are in instead of highlighting the windows you arent
