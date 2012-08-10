@@ -16,6 +16,9 @@ Bundle 'wincent/Command-T'
 Bundle 'sjl/gundo.vim'
 Bundle 'tpope/vim-repeat'
 Bundle 'vim-ruby/vim-ruby'
+Bundle 'cakebaker/scss-syntax.vim'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'tpope/vim-ragtag'
 
 " vim-scripts repos
 Bundle 'L9'
