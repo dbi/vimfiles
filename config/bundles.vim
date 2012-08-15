@@ -19,6 +19,7 @@ Bundle 'vim-ruby/vim-ruby'
 Bundle 'cakebaker/scss-syntax.vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'tpope/vim-ragtag'
+Bundle 'skammer/vim-css-color'
 
 " vim-scripts repos
 Bundle 'L9'
