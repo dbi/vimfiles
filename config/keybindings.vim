@@ -56,4 +56,4 @@ map <leader>et :tabe %%
 nmap <Leader>l O<Esc>"%pA:<C-R>=line(".")<CR><Esc>0d$"_dd
 
 " Yank from the cursor to the end of the line, to be consistent with C and D.
-nnoremap Y y$      
+nnoremap Y y$
