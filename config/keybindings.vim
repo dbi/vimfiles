@@ -1,6 +1,9 @@
 nmap ö :
 let mapleader = " "
 
+" Syntax on (is diabled by default for non gui vim)
+nmap <Leader>s :syntax on<CR>
+
 " Navigation
 nmap <Leader>t :CommandT<CR>
 nmap <Leader>n :FufBuffer<CR>
