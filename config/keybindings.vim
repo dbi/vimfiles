@@ -56,7 +56,7 @@ map <leader>ev :vsp %%
 map <leader>et :tabe %%
 
 " Jannes macro for grabbing line and file
-nmap <Leader>l O<Esc>"%pA:<C-R>=line(".")<CR><Esc>0d$"_dd
+nmap <Leader>l O<Esc>"%pA:<C-R>=line(".")<CR><Esc>0d$"_ddu
 
 " Yank from the cursor to the end of the line, to be consistent with C and D.
 nnoremap Y y$
