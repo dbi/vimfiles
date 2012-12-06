@@ -55,7 +55,5 @@ endif
 "Tabswitch shortcuts
 map <silent> <D-A-Left> :tabprevious<CR>
 map <silent> <D-A-Right> :tabnext<CR>
-imap <silent> <D-A-Left> :tabprevious<CR>
-imap <silent> <D-A-Right> :tabnext<CR>
 
 set showtabline=1
