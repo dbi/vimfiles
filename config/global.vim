@@ -5,6 +5,7 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set expandtab
+set hidden
 set number                                              " Show line numbers
 
 set clipboard=unnamed                   " Share clipboard
