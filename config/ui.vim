@@ -8,7 +8,6 @@ set guioptions-=m                                       " Hide menus
 set guioptions-=rL                                      " Scrollbar is always off
 set guioptions-=e                                       " No GUI tabs
 set guicursor=a:blinkon0                                " Don't flick cursor
-set number                                              " Show line numbers
 
 " http://vimcasts.org/episodes/show-invisibles/
 " Use the same symbols as TextMate for tabstops and EOLs
