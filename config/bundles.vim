@@ -6,6 +6,7 @@ call vundle#rc()
 " let Vundle manage Vundle (required by vundle)
 Bundle 'gmarik/vundle'
 
+Bundle 'kien/ctrlp.vim'
 Bundle "tpope/vim-surround"
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'mrtazz/molokai.vim'
