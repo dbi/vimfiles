@@ -81,3 +81,6 @@ hi TabLine        guifg=#505050    guibg=#000000    gui=NONE
 "Hihlight the window you are in instead of highlighting the windows you arent
 hi StatusLine     guifg=#A5B7E6    guibg=#000000    term=bold,reverse    gui=bold,reverse
 hi StatusLineNC   guifg=#0E2231    guibg=#8693A5    term=reverse    gui=reverse 
+
+" Skip underlining links in html
+hi link htmlLink text
