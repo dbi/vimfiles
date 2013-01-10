@@ -22,6 +22,8 @@ Bundle 'tpope/vim-ragtag'
 Bundle 'skammer/vim-css-color'
 Bundle 'tpope/vim-markdown'
 Bundle 'tpope/vim-git'
+Bundle 'sjl/badwolf'
+
 " vim-scripts repos
 Bundle 'L9'
 Bundle 'FuzzyFinder'

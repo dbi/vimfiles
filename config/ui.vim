@@ -14,7 +14,8 @@ set guicursor=a:blinkon0                                " Don't flick cursor
 set listchars=tab:»-,trail:·,extends:@,nbsp:≠
 set list
 
-colorscheme molokai
+colorscheme badwolf
+" colorscheme molokai
 " colorscheme billskog_theme
 
 " No bell sound
