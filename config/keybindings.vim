@@ -39,13 +39,15 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
-" Command mode
-cnoremap <C-A> <Home>
-cnoremap <C-E> <End>
-cnoremap <C-F> <Right>
-cnoremap <C-B> <Left>
-cnoremap <C-D> <Del>
-cnoremap <C-K> <C-E><C-U>
+" emacs movement in insert/command mode
+inoremap <c-a> <esc>I
+inoremap <c-e> <esc>A
+cnoremap <c-a> <Home>
+cnoremap <c-e> <End>
+cnoremap <c-f> <Right>
+cnoremap <c-b> <Left>
+cnoremap <c-d> <Del>
+cnoremap <c-k> <c-e><c-u>
 
 " Double percentage sign in command mode is expanded
 " to directory of current file - http://vimcasts.org/e/14
