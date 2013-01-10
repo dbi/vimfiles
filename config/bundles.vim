@@ -8,7 +8,6 @@ Bundle 'gmarik/vundle'
 
 Bundle 'kien/ctrlp.vim'
 Bundle "tpope/vim-surround"
-Bundle 'Lokaltog/vim-easymotion'
 Bundle 'mrtazz/molokai.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-fugitive'
