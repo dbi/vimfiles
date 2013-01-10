@@ -60,3 +60,6 @@ nmap <Leader>l O<Esc>"%pA:<C-R>=line(".")<CR><Esc>0d$"_ddu
 
 " Yank from the cursor to the end of the line, to be consistent with C and D.
 nnoremap Y y$
+
+" Clear whitespace
+map <silent> <Leader>w m`:%s/\s\+$//<CR>``
