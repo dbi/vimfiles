@@ -26,6 +26,7 @@ Bundle 'tpope/vim-git'
 Bundle 'L9'
 Bundle 'FuzzyFinder'
 Bundle "ack.vim"
+Bundle 'vim-scripts/django.vim'
 
 " non github repos
 " Bundle 'git://git.wincent.com/command-t.git'
