@@ -19,3 +19,6 @@ let g:gundo_close_on_revert = 1
 
 " Vim commentary
 map cc gcc
+
+" Hide .pyc files in NERDTree
+let NERDTreeIgnore = ['\.pyc$']
