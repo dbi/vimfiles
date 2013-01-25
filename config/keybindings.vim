@@ -21,7 +21,6 @@ nmap <Leader>b :b!#<CR>
 map <silent> å <C-]>
 
 " Search
-map <silent> <leader>c :noh<CR>
 map <silent> ä :noh<CR>
 map <leader>f :Ack 
 map <leader>a :Ag<space>
