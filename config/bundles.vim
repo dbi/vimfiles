@@ -23,6 +23,7 @@ Bundle 'skammer/vim-css-color'
 Bundle 'tpope/vim-markdown'
 Bundle 'tpope/vim-git'
 Bundle 'sjl/badwolf'
+Bundle 'epmatsw/ag.vim'
 
 " vim-scripts repos
 Bundle 'L9'

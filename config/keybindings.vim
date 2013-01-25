@@ -24,6 +24,7 @@ map <silent> å <C-]>
 map <silent> <leader>c :noh<CR>
 map <silent> ä :noh<CR>
 map <leader>f :Ack 
+map <leader>a :Ag<space>
 
 " Quickfix navigation
 map <silent> <Down>   :cn<CR>zz
