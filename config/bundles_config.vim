@@ -16,3 +16,6 @@ autocmd User Rails map <silent> <Leader>d :q<CR>:vsplit<CR>:A<CR>
 
 " Gundo
 let g:gundo_close_on_revert = 1
+
+" Vim commentary
+map cc gcc
