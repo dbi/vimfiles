@@ -15,3 +15,5 @@ set autoread                            " Load changes to files from external ap
 scriptencoding utf-8                    " UTF8 All day, every day
 set directory=/tmp/                     " Set temporary directory (don't litter local dir with swp/tmp files)
 set gdefault                            " assume the /g flag on :s substitutions to replace all matches in a line:
+
+set wildignore+=*.pyc
