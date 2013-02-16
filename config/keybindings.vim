@@ -22,7 +22,7 @@ map <silent> å <C-]>
 
 " Search
 map <silent> ä :noh<CR>
-map <leader>f :Ack 
+map <leader>f :Ack<space>
 map <leader>a :Ag<space>
 
 " Quickfix navigation
