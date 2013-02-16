@@ -17,3 +17,4 @@ set directory=/tmp/                     " Set temporary directory (don't litter 
 set gdefault                            " assume the /g flag on :s substitutions to replace all matches in a line:
 
 set wildignore+=*.pyc
+set scrolloff=3
