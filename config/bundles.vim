@@ -25,6 +25,7 @@ Bundle 'tpope/vim-git'
 Bundle 'sjl/badwolf'
 Bundle 'epmatsw/ag.vim'
 Bundle 'tpope/vim-commentary'
+Bundle 'sjl/vitality.vim'
 
 " vim-scripts repos
 Bundle 'L9'
