@@ -6,34 +6,65 @@ call vundle#rc()
 " let Vundle manage Vundle (required by vundle)
 Bundle 'gmarik/vundle'
 
+Bundle 'cakebaker/scss-syntax.vim'
+Bundle 'epmatsw/ag.vim'
+Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
-Bundle "tpope/vim-surround"
 Bundle 'mrtazz/molokai.vim'
 Bundle 'scrooloose/nerdtree'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-rails.git'
-Bundle 'wincent/Command-T'
-Bundle 'sjl/gundo.vim'
-Bundle 'tpope/vim-repeat'
-Bundle 'vim-ruby/vim-ruby'
-Bundle 'cakebaker/scss-syntax.vim'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'tpope/vim-ragtag'
-Bundle 'skammer/vim-css-color'
-Bundle 'tpope/vim-markdown'
-Bundle 'tpope/vim-git'
 Bundle 'sjl/badwolf'
-Bundle 'epmatsw/ag.vim'
-Bundle 'tpope/vim-commentary'
 Bundle 'sjl/vitality.vim'
+Bundle 'tpope/vim-commentary'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-git'
+Bundle 'tpope/vim-markdown'
+Bundle 'tpope/vim-ragtag'
+Bundle 'tpope/vim-rails.git'
+Bundle 'tpope/vim-repeat'
+Bundle 'tpope/vim-surround'
+Bundle 'vim-ruby/vim-ruby'
 
 " vim-scripts repos
-Bundle 'L9'
 Bundle 'FuzzyFinder'
-Bundle "ack.vim"
+Bundle 'L9'
 Bundle 'vim-scripts/django.vim'
 
-" non github repos
-" Bundle 'git://git.wincent.com/command-t.git'
-
 filetype plugin indent on                           " required!
+
+
+" -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- BUNDLE CONFIGS -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- "
+
+
+" Auto remove fudgitive buffers
+autocmd BufReadPost fugitive://* set bufhidden=delete
+
+" Ag
+noremap <leader>a :Ag<space>
+let g:agprg="ag -S --nocolor --nogroup --column"
+
+" Gundo
+let g:gundo_close_on_revert = 1
+
+" Hide .pyc files in NERDTree
+let NERDTreeIgnore = ['\.pyc$']
+let NERDTreeMinimalUI = 1
+
+" CtrlP
+let g:ctrlp_max_files = 10000
+let g:ctrlp_user_command = {
+                        \ 'types': { 1: ['.git/', 'cd %s && git ls-files'] },
+                        \ 'fallback': 'find %s -type f | head -' . g:ctrlp_max_files
+                        \ }
+let g:ctrlp_custom_ignore = {
+                        \ 'dir':  '\v[\/]\.(git|hg|svn)$',
+                        \ }
+
+" FuzzyFinder
+nmap <Leader>n :FufBuffer<CR>
+let g:fuf_buffer_keyDelete = '<C-x>' " delete buffer from fuf list
+
+" L9
+nmap <Leader>m :L9GrepBufferAll/
+
+" Rails config
+autocmd User Rails set wildignore+=public/assets/**,vendor/**,log/**,tmp/**
