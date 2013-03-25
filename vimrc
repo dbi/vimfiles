@@ -6,3 +6,5 @@ source ~/.vim/config/defaults.vim
 
 syntax on
 colorscheme badwolf
+
+filetype plugin indent on
