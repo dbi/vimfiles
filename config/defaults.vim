@@ -29,8 +29,8 @@ set list
 " No bell sound
 set vb
 
-" Display status bar with more than one split open
-set laststatus=1
+" Always display status bar
+set laststatus=2
 
 " Autosave on lost focus
 autocmd FocusLost * silent! wall
