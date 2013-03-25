@@ -8,3 +8,4 @@ syntax on
 colorscheme badwolf
 
 filetype plugin indent on
+set backspace=indent,eol,start " to make backspace work in terminal
