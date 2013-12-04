@@ -41,6 +41,9 @@ let mapleader = " "
 " Jump to last file
 nmap <Leader>b :b!#<CR>
 
+" Select last pasted text (via Teo)
+noremap <leader>v V`]
+
 " Jump to help topic
 map <silent> å <C-]>
 
