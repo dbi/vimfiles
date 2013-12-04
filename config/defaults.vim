@@ -9,6 +9,7 @@ set shiftwidth=2
 set expandtab
 set hidden
 set number                              " Show line numbers
+set incsearch
 
 set clipboard=unnamed                   " Share clipboard
 set wrap                                " Word wrap

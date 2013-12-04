@@ -4,6 +4,7 @@ au VimEnter * set fullscreen
 " Choose font and enable anti-aliasing
 set guifont=Monaco:h14
 set antialias
+set cursorline
 
 set fuoptions=maxvert,maxhorz                           " Maximize: Vert and Horiz by default
 set guioptions-=T                                       " Hide toolbar
