@@ -5,7 +5,7 @@ source ~/.vim/config/tabline.vim
 source ~/.vim/config/defaults.vim
 
 syntax on
-colorscheme badwolf
+colorscheme hybrid
 
 filetype plugin indent on
 set backspace=indent,eol,start " to make backspace work in terminal
