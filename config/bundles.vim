@@ -53,14 +53,22 @@ let g:gundo_close_on_revert = 1
 let NERDTreeIgnore = ['\.pyc$']
 let NERDTreeMinimalUI = 1
 
+" Command-T
+autocmd FocusGained * :CommandTFlush
+let g:CommandTMaxHeight=20
+let g:CommandTMatchWindowReverse=1
+
+" nmap <Leader>t :CommandT<CR>
+
 " CtrlP
 let g:ctrlp_max_files = 10000
 let g:ctrlp_user_command = {
-                        \ 'types': { 1: ['.git/', 'cd %s && git ls-files'] },
+                        \ 'types': { 1: ['.git/', 'cd %s && git ls-files -co'] },
                         \ 'fallback': 'find %s -type f | head -' . g:ctrlp_max_files
                         \ }
 let g:ctrlp_custom_ignore = {
                         \ 'dir':  '\v[\/]\.(git|hg|svn)$',
+                        \ 'file': '\.pyc$\|\.so$\|\.dat$',
                         \ }
 
 " FuzzyFinder
