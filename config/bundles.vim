@@ -7,27 +7,31 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 Bundle 'cakebaker/scss-syntax.vim'
+Bundle 'dbi/vim-hybrid'
 Bundle 'epmatsw/ag.vim'
+Bundle 'jnwhiteh/vim-golang'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
-Bundle 'mrtazz/molokai.vim'
 Bundle 'scrooloose/nerdtree'
-Bundle 'sjl/badwolf'
-Bundle 'sjl/vitality.vim'
+Bundle 'teoljungberg/vim-grep'
+Bundle 'terryma/vim-expand-region'
+Bundle 'tpope/vim-bundler'
 Bundle 'tpope/vim-commentary'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-git'
 Bundle 'tpope/vim-markdown'
-Bundle 'tpope/vim-ragtag'
 Bundle 'tpope/vim-rails.git'
+Bundle 'tpope/vim-rake'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-surround'
 Bundle 'vim-ruby/vim-ruby'
+Bundle 'wincent/Command-T'
 
 " vim-scripts repos
 Bundle 'FuzzyFinder'
 Bundle 'L9'
-Bundle 'vim-scripts/django.vim'
+" Bundle 'vim-scripts/django.vim'
+Bundle "ack.vim"
 
 filetype plugin indent on                           " required!
 

@@ -1,8 +1,9 @@
 set nocompatible
 
+source ~/.vim/config/defaults.vim
 source ~/.vim/config/bundles.vim
 source ~/.vim/config/tabline.vim
-source ~/.vim/config/defaults.vim
+runtime macros/matchit.vim
 
 syntax on
 colorscheme hybrid
