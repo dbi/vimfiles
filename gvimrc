@@ -16,3 +16,6 @@ set guicursor=a:blinkon0                                " Don't flick cursor
 " Tabswitch shortcuts
 map <silent> <D-A-Left> :tabprevious<CR>
 map <silent> <D-A-Right> :tabnext<CR>
+
+" Format text files like markdown
+au BufReadPost *.txt set syntax=markdown
