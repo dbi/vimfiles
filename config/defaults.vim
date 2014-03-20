@@ -10,6 +10,10 @@ set expandtab
 set hidden
 set number                              " Show line numbers
 set incsearch
+set textwidth=0
+set wrapmargin=0
+
+set shortmess+=I                        " Disable welcome screen
 
 set clipboard=unnamed                   " Share clipboard
 set wrap                                " Word wrap
