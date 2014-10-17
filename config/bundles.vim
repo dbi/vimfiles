@@ -13,9 +13,9 @@ Bundle 'jnwhiteh/vim-golang'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/syntastic'
 Bundle 'teoljungberg/vim-grep'
-Bundle 'terryma/vim-expand-region'
-Bundle 'tpope/vim-bundler'
+Bundle 'terryma/vim-multiple-cursors'
 Bundle 'tpope/vim-commentary'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-git'
@@ -30,7 +30,7 @@ Bundle 'wincent/Command-T'
 " vim-scripts repos
 Bundle 'FuzzyFinder'
 Bundle 'L9'
-" Bundle 'vim-scripts/django.vim'
+Bundle 'vim-scripts/django.vim'
 Bundle "ack.vim"
 
 filetype plugin indent on                           " required!
